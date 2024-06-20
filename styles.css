@@ -1,0 +1,68 @@
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: hsl(0, 0%, 8%);
+	margin: 0;
+	padding: 0;
+}
+
+.card {
+	
+	min-width: 350px;
+	background-color: hsl(0, 0%, 12%);
+	font-family: Inter, sans-serif;
+	font-size: 14px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 12px;
+}
+
+.avatar {
+	width: 88px;
+	height: 88px;
+	overflow: hidden;
+	display: flex;
+	margin: 38px 20px 25px 20px;
+	border-radius: 50%;
+}
+.name {
+	color: white;
+	font-size: 24px;
+	font-weight: 600;
+}
+.address {
+	font-size: 14px;
+	font-weight: 600;
+	color: hsl(75, 94%, 57%);
+	margin-top: 10px;
+}
+.profession {
+	color: white;
+	margin-top: 25px;
+	margin-bottom: 5px;
+}
+.links {
+	margin: 20px;
+}
+.link {
+	width: 300px;
+	height: 45px;
+	color: hsl(0, 0%, 100%);
+	background-color: hsl(0, 0%, 20%);
+	font-family: Inter, sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 8px;
+	margin-bottom: 15px;
+}
+.link:hover {
+	background-color:hsl(75, 94%, 57%);
+	color: hsl(0, 0%, 8%);
+}
